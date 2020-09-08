@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/GitHub-Jobs-App/static/css/main.a0e6dc21.chunk.css",
-    "main.js": "/GitHub-Jobs-App/static/js/main.afbb9837.chunk.js",
-    "main.js.map": "/GitHub-Jobs-App/static/js/main.afbb9837.chunk.js.map",
+    "main.css": "/GitHub-Jobs-App/static/css/main.3a4fef82.chunk.css",
+    "main.js": "/GitHub-Jobs-App/static/js/main.8c15fc0a.chunk.js",
+    "main.js.map": "/GitHub-Jobs-App/static/js/main.8c15fc0a.chunk.js.map",
     "runtime-main.js": "/GitHub-Jobs-App/static/js/runtime-main.51bc4384.js",
     "runtime-main.js.map": "/GitHub-Jobs-App/static/js/runtime-main.51bc4384.js.map",
     "static/js/2.c9067fc4.chunk.js": "/GitHub-Jobs-App/static/js/2.c9067fc4.chunk.js",
     "static/js/2.c9067fc4.chunk.js.map": "/GitHub-Jobs-App/static/js/2.c9067fc4.chunk.js.map",
     "index.html": "/GitHub-Jobs-App/index.html",
-    "precache-manifest.ec4f2b485091812f027e4b7eed288958.js": "/GitHub-Jobs-App/precache-manifest.ec4f2b485091812f027e4b7eed288958.js",
+    "precache-manifest.5d357900ac29d7b5e91b958e9ffcf701.js": "/GitHub-Jobs-App/precache-manifest.5d357900ac29d7b5e91b958e9ffcf701.js",
     "service-worker.js": "/GitHub-Jobs-App/service-worker.js",
-    "static/css/main.a0e6dc21.chunk.css.map": "/GitHub-Jobs-App/static/css/main.a0e6dc21.chunk.css.map",
-    "static/js/2.c9067fc4.chunk.js.LICENSE.txt": "/GitHub-Jobs-App/static/js/2.c9067fc4.chunk.js.LICENSE.txt"
+    "static/css/main.3a4fef82.chunk.css.map": "/GitHub-Jobs-App/static/css/main.3a4fef82.chunk.css.map",
+    "static/js/2.c9067fc4.chunk.js.LICENSE.txt": "/GitHub-Jobs-App/static/js/2.c9067fc4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/GitHub-Jobs-App/static/media/bg.f8ede578.png"
   },
   "entrypoints": [
     "static/js/runtime-main.51bc4384.js",
     "static/js/2.c9067fc4.chunk.js",
-    "static/css/main.a0e6dc21.chunk.css",
-    "static/js/main.afbb9837.chunk.js"
+    "static/css/main.3a4fef82.chunk.css",
+    "static/js/main.8c15fc0a.chunk.js"
   ]
 }
