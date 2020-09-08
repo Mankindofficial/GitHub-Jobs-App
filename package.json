@@ -2,7 +2,7 @@
   "name": "github-jobs-app",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://mankindofficial.github.io/GitHub-Jobs-App/.",
+  "homepage": "https://mankindofficial.github.io/GitHub-Jobs-App/.",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -15,8 +15,9 @@
     "styled-components": "^5.2.0"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "clean": "gh-pages-clean",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

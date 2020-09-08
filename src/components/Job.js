@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import ReactMarkdown from 'react-markdown';
 
-
 const Card = styled.div`
 	border:1px #ccc solid;
+	background:#f2f2f2;
 	padding:20px;
 	font-size:.9em;
-	width:90%;
+	width:80vw;
 	margin:0 auto;
 	display:flex;
 	justify-content:space-between;
@@ -35,12 +35,11 @@ const Badge = styled.span`
 	border-radius:5px;
 	cursor:default;
 `;
-const Buttn = styled.button`
-	background:lightblue;
+const Button = styled.button`
+	background:#6C63FF;
 	color:white;
-	font-size:.8em;
-	padding:7px 10px;
-	display:block;
+	font-size:.7em;
+	padding:8px 12px;
 	border:none;
 	border-radius:5px;
 	cursor:pointer;
@@ -52,11 +51,12 @@ const MarkDown = styled.div`
 	word-break: break-all;
 `;
 
-
 function Job({ job }) {
 
+	const [show, setShow] = useState(false);
+
 	return(
-		<Card>
+		<Card className="grow">
 			<CardDetails>
 				<Name>{job.title}<Light> - {job.company}</Light></Name>
 				<Data style={{}}>{new Date(job.created_at).toLocaleDateString()}</Data>
@@ -65,9 +65,12 @@ function Job({ job }) {
 				<MarkDown>
 				<ReactMarkdown source={job.how_to_apply}/>
 				</MarkDown>
-				<Buttn>View Details</Buttn>
+				<Button onClick={() => setShow(!show)} >{show ? 'Hide Details' : 'View Details'}</Button>
+				<div style={{display: show ? 'block' : 'none', marginTop:'10px'}} >
+					<ReactMarkdown source={job.description}/>
+				</div>
 			</CardDetails>
-			<img alt={job.company} src={job.company_logo} height='40px'/>
+			<img alt={job.company} src={job.company_logo} height='40px' style={{display:(window.innerWidth > 600) ? 'block' : 'none'}}/>
 		</Card>
 	);
 }
